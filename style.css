@@ -5,17 +5,22 @@
 }
 
 body {
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     background-color: #dddddd;
     font-size: 18px;
+    margin: 0 20%;
 }
 
 header {
     display: flex;
     align-items: center;
     box-shadow: 2px 8px 7px #F5F5F5
+}
+
+img{
+    width: 150px;
+    height: 80px;  
 }
 
 p{
@@ -27,7 +32,7 @@ p{
     padding: 5px;
     width: 80px;
     height: 20px;
-    background-color: #3939fc; 
+    background-color: #5e5efc; 
 }
 
 .continuar:hover {
@@ -41,7 +46,7 @@ p{
 .cabecalhoMenu li {
     margin: 0 10px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .titulo {
@@ -53,11 +58,8 @@ p{
     margin-top: 50px;
 }
 
-.rodape p{
-    text-align: center;
-}
-
 .rodape{
+    padding: 10px 15px 5px;
     background-color:#bbb9b9;
 }
 
